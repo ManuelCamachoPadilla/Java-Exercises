@@ -5,7 +5,7 @@ public class GeneratePerimeter {
     public static void main(String[] args) throws IOException {
         GetShapeFactory shapeFactory = new GetShapeFactory();
 
-        System.out.print("Enter shape name: triangle, square or hexagon: ");
+        System.out.print("Enter shape name (triangle, square or hexagon): ");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String shapeName = br.readLine();
